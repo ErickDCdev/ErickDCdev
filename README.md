@@ -1,2 +1,2 @@
-Hi im Erick
+Hi im Erick,
 Im a web developer.
