@@ -1,0 +1,22 @@
+html{
+    background: rgb(255,255,255);
+    background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(145,133,255,1) 64%);     
+}
+#name-title{
+    font-size: 60px;
+    border-style: solid;
+    border-inline: 20px;
+    border-radius: 20px;
+    background-color: rgb(219, 231, 255);
+    text-align: center;
+
+}
+
+#picofme{
+    position:  relative; right: -220px;
+    border-style:ridge solid;
+    border-color: rgb(0, 0, 0) !important;
+    border-inline: 20px;
+    border-radius: 50px;
+
+}
