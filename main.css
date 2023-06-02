@@ -1,6 +1,26 @@
 html{
+    font-family: 'Abril Fatface', cursive;
     background: rgb(255,255,255);
     background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(145,133,255,1) 64%);     
+}
+.dash{
+    font-size: 80px;
+    margin-bottom: -170px;
+    margin-top: -170px;
+    margin-left: 825px;
+    padding: 0;
+}
+.Titleclass{
+    font-size: 30px;
+    text-align: center;
+}
+#nameplate{
+    margin-left: 635px;
+    font-family:'Koulen';
+}
+#picplate{
+    align-items: center;
+    margin-left: 665px;
 }
 #name-title{
     font-size: 60px;
@@ -10,13 +30,46 @@ html{
     border-radius: 20px;
     background-color: rgb(219, 231, 255);
     display: inline-block;
-
+    padding: 10px;
+}
+#summaryTitle{
+    margin-left: 55px;
+}
+#summaryTxt{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: -60px;
+    text-align: center;
 }
 
+#eduTitle{
+    font-size: 30px;
+    margin-left: 55px;
+}
+#eduTxt{
+    font-size: 25px;
+    text-align:center;
+}
 #picofme{
 
-    border-style:ridge solid;
-    border-color: rgb(0, 0, 0) !important;
+    border: 10px solid rgb(141, 125, 211);
+    border-style:dashed solid;
     border-inline: 20px;
     border-radius: 50px;
+}
+#workTitle{
+    text-indent: 50px;
+}
+#workTxt{
+    font-size: 24px;
+    text-align: center;
+}
+#skillsTxt{
+    text-align: center;
+}
+.mtop-10{
+    margin-top: -10px;
+}
+.mtop-30{
+    margin-top: -30px;
 }
