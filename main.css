@@ -1,75 +1,78 @@
 html{
     font-family: 'Abril Fatface', cursive;
-    background: rgb(255,255,255);
-    background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(145,133,255,1) 64%);     
+    background-image:url(https://i.gifer.com/WSG.gif);
+    background-size: cover;
+    color:white !important;
 }
-.dash{
-    font-size: 80px;
-    margin-bottom: -170px;
-    margin-top: -170px;
-    margin-left: 825px;
-    padding: 0;
-}
+
 .Titleclass{
     font-size: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center !important;
 }
 #nameplate{
-    margin-left: 635px;
-    font-family:'Koulen';
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 #picplate{
-    align-items: center;
-    margin-left: 665px;
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: BLUE-OCEAN;
+    src: url(assets/BLUE-OCEAN.ttf);
 }
 #name-title{
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-family: BLUE-OCEAN;
     border-style: solid;
     border-inline: 20px;
     border-radius: 20px;
-    background-color: rgb(219, 231, 255);
     display: inline-block;
     padding: 10px;
 }
 #summaryTitle{
-    margin-left: 55px;
+    display: flex;
+    justify-content: center;
 }
 #summaryTxt{
     font-size: 30px;
-    font-weight: 200;
-    margin-bottom: -60px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin-bottom: -60px;
+    width: 50%;
 }
 
 #eduTitle{
     font-size: 30px;
-    margin-left: 55px;
+    display: flex;
+    justify-content: center;
 }
 #eduTxt{
     font-size: 25px;
-    text-align:center;
+    margin-top:-60px;
+    display: flex;
+    justify-content: center;
 }
 #picofme{
 
     border: 10px solid rgb(141, 125, 211);
-    border-style:dashed solid;
     border-inline: 20px;
     border-radius: 50px;
 }
 #workTitle{
-    text-indent: 50px;
+    margin-top:-20px;
+    display: flex;
+    justify-content: center;
 }
 #workTxt{
     font-size: 24px;
-    text-align: center;
+    margin-top:-30px;
+    display: flex;
+    justify-content: center;
 }
 #skillsTxt{
     text-align: center;
-}
-.mtop-10{
-    margin-top: -10px;
-}
-.mtop-30{
-    margin-top: -30px;
 }
