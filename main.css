@@ -42,7 +42,7 @@ html{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 26%;
+    margin: 0 auto;
     margin-bottom: -60px;
     width: 50%;
 }
