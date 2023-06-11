@@ -1,0 +1,16 @@
+html{
+    font-family: 'Carter One', cursive;
+    background-image:url(https://i.gifer.com/WSG.gif);
+    background-size: cover;
+    color:white !important;
+    text-shadow: 2px 2px 2px black !important;
+    display: flex !important;
+    text-align: center;
+}
+@font-face {
+    font-family: OCEAN-BLUE;
+    src: url(assets/BLUE-OCEAN.ttf);
+}
+.TitleClass{
+    font-family: OCEAN-BLUE;
+}
